@@ -1,0 +1,10 @@
+query MyQuery($pin: Int) {
+  common_postal_pin_det_t(where: {pincode: {_eq: {{this.params.pin}}}}) {
+    pincode
+    state
+    district
+    taluk
+    village_locality
+    post
+  }
+}

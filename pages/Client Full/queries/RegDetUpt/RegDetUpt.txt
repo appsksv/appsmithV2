@@ -1,0 +1,18 @@
+mutation MyMutation {
+  update_party_reg_typ_t(
+    where: { reg_typ_id	: { _eq: {{reg_id.text}} } }, 
+    _set: { 
+      active_flag				:  {{reg_activeFlag_ins.isSwitchedOn}}, 
+      end_date					: "{{reg_end_date_ins.formattedDate}}", 
+      reg_date					: "{{reg_date_ins.formattedDate}}", 
+      reg_no						: "{{reg_number_ins.text}}", 
+      reg_type_lov_id		:  {{reg_type_ins.selectedOptionValue}}, 
+      start_date				: "{{reg_start_date_ins.formattedDate}}", 
+			last_updated_by		:  {{appsmith.store.user_id}}
+    }
+  ) {
+    returning {
+      reg_typ_id
+    }
+  }
+}

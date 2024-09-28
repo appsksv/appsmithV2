@@ -1,0 +1,58 @@
+{
+  "allowedFileTypes": "[\n  \"application/pdf\"\n]",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 43,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "allowedFileTypes"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onFilesSelected"
+    }
+  ],
+  "dynamicTyping": true,
+  "fileDataType": "Base64",
+  "files": [],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "9bghah5r73",
+  "label": "Upload Resume",
+  "leftColumn": 16,
+  "maxFileSize": 5,
+  "maxNumFiles": 1,
+  "minWidth": 120,
+  "mobileBottomRow": 36,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 32,
+  "needsErrorInfo": false,
+  "onFilesSelected": "{{up_attachment.run({\n  \"bucket\": \"master-docs\",\n  \"path\": appsmith.store.resumepath,\n  file: resume.files[0].data\n});}}",
+  "parentColumnSpace": 19.875,
+  "parentId": "0s9vk6lbp3",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 28,
+  "selectedFiles": [],
+  "topRow": 39,
+  "type": "FILE_PICKER_WIDGET_V2",
+  "version": 1,
+  "widgetId": "fpediy2h2d",
+  "widgetName": "resume"
+}

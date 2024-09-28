@@ -1,0 +1,6 @@
+query MyQuery {
+  ksv_postal_pin_det_t(where: { pincode_txt: {_ilike: "%{{p_pincode_ins.text}}%"}}, distinct_on: pincode) {
+    pincode
+    state
+  }
+}

@@ -1,0 +1,8 @@
+query emp_int {
+  hr_emp_int_t {
+    int_id
+		first_name
+    middle_name
+    last_name
+    }
+}

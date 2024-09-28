@@ -1,0 +1,9 @@
+query MyQuery {
+  hr_emp_appl_t {
+		int_id
+    first_name 
+    middle_name 
+    last_name 
+    date_of_birth
+  }
+}

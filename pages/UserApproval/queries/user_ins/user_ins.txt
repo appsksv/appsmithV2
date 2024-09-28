@@ -1,0 +1,7 @@
+mutation MyMutation ($object: sysadmin_user_t_insert_input!) {
+  insert_sysadmin_user_t(objects: [$object]) {
+    returning {
+      user_id
+    }
+  }
+}

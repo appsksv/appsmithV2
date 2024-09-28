@@ -1,0 +1,10 @@
+mutation upd_attachment($id: Int!, $object: common_attachment_t_set_input!) {
+  action: update_common_attachment_t(
+    where: { attachment_id: { _eq: $id } },
+    _set: $object
+  ) {
+    returning {
+      attachment_id
+    }
+  }
+}

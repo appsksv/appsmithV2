@@ -1,0 +1,5 @@
+query MyQuery {
+  sysadmin_user_t(where: {active_flag: {_eq: true}, user_id: {_eq:{{appsmith.store.user_id}} }}) {
+    user_name
+  }
+}

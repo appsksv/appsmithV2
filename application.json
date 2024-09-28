@@ -1,0 +1,47 @@
+{
+  "appIsExample": false,
+  "appLayout": {
+    "type": "DESKTOP"
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#C7F3F0",
+  "evaluationVersion": 2,
+  "pages": [
+    {
+      "id": "Login",
+      "isDefault": true
+    },
+    {
+      "id": "Signup",
+      "isDefault": false
+    },
+    {
+      "id": "PDF Viewer",
+      "isDefault": false
+    },
+    {
+      "id": "UserApproval",
+      "isDefault": false
+    },
+    {
+      "id": "Client Full",
+      "isDefault": false
+    },
+    {
+      "id": "HomePage",
+      "isDefault": false
+    },
+    {
+      "id": "Change Password",
+      "isDefault": false
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
+    }
+  ],
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  }
+}

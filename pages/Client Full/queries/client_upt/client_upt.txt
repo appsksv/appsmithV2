@@ -1,0 +1,17 @@
+mutation MyMutation {
+  update_party_client_t(
+    where: { client_id: { _eq: {{ClientId.text}} } },  # Use _eq for equality comparison
+    _set: {
+      contact_no: "{{MobileNo.text}}", 
+      date_of_birth: "{{DateofBirth.formattedDate}}", 
+      group_id: {{Group.selectedOptionValue}}, 
+      legal_name: "{{LegalName.text}}", 
+      org_type_id: {{OrganisationType.selectedOptionValue}}, 
+      trade_name: "{{TradeName.text}}"
+    }
+  ) {
+    returning {
+      client_id
+    }
+  }
+}

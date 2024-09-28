@@ -1,0 +1,26 @@
+mutation MyMutation	{
+  insert_common_location_t
+				(objects: 
+				 {address_type_id: 82,
+				  pincode: {{p_pincode_ins.text}},
+				  country: "India",
+				  state: {{p_state_ins.selectedOptionValue}},
+				  district: {{p_district_ins.selectedOptionValue}},
+				  taluk_city: {{p_taluk_ins.selectedOptionValue}},
+				  post: {{p_post_ins.selectedOptionValue}},
+				  area_locality: {{p_Locality_ins.selectedOptionValue}},
+				  street: {{p_street_ins.text}},
+				  door_no: {{p_street_ins.text}},
+				  address_line_1: {{p_addressLine1_ins.text}}, 
+				  address_line_2: {{p_addressLine2_ins.text}},
+				  gps_coordinates: {{p_gpsCoardinates_ins.text}}, 
+				  ref_id: {{KeyPerId.text}}, 
+				  ref_table: "key_person_t"
+				  }) 
+				  
+				  {
+					returning {
+								address_id
+							  }
+				  }
+}

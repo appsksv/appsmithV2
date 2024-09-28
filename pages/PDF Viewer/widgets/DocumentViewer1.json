@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "bottomRow": 87,
+  "displayName": "Document Viewer",
+  "docUrl": "{{appsmith.URL.queryParams.pdf_url}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "docUrl"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.9a94cf630fee10d87605f8b185b2e979.svg",
+  "isCanvas": false,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "yv803x5c4t",
+  "leftColumn": 0,
+  "mobileBottomRow": 49,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 9,
+  "parentColumnSpace": 19.203125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "pdf"
+  ],
+  "tags": [
+    "Media"
+  ],
+  "topRow": 10,
+  "type": "DOCUMENT_VIEWER_WIDGET",
+  "version": 1,
+  "widgetId": "znogpkmiqu",
+  "widgetName": "DocumentViewer1"
+}

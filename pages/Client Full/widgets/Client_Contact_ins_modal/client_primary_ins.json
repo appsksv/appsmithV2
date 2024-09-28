@@ -1,0 +1,48 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "bottomRow": 28,
+  "boxShadow": "none",
+  "defaultSwitchState": false,
+  "displayName": "Switch",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.c77450c6a660d2ddf1b49f085348de1c.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "m3wt64c8bj",
+  "label": "Primary Flag",
+  "labelPosition": "Left",
+  "leftColumn": 45,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 59,
+  "mobileTopRow": 18,
+  "originalBottomRow": 22,
+  "originalTopRow": 18,
+  "parentColumnSpace": 10.09375,
+  "parentId": "3mkt6awq9i",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 57,
+  "searchTags": [
+    "boolean"
+  ],
+  "topRow": 24,
+  "type": "SWITCH_WIDGET",
+  "version": 1,
+  "widgetId": "rcmyg8tdhk",
+  "widgetName": "client_primary_ins"
+}

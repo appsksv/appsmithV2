@@ -1,0 +1,181 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 20,
+  "bottomRowBeforeCollapse": 20,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "displayName": "Button Group",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "groupButtons.groupButton1.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton2.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton3.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonmjp92id1sg.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtoneskoc9d3ct.buttonColor"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton3.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonmjp92id1sg.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtoneskoc9d3ct.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButton1": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "new-person",
+      "id": "groupButton1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Partner",
+      "menuItems": {},
+      "onClick": "{{Client_Pkg.SubModule('P');}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton2": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "shop",
+      "id": "groupButton2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Registration",
+      "menuItems": {},
+      "onClick": "{{Client_Pkg.SubModule('R');}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton3": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "crown",
+      "id": "groupButton3",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Service",
+      "menuItems": {
+        "menuItem3": {
+          "backgroundColor": "#DD4B34",
+          "iconAlign": "right",
+          "iconColor": "#FFFFFF",
+          "iconName": "trash",
+          "id": "menuItem3",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Delete",
+          "onClick": "",
+          "textColor": "#FFFFFF",
+          "widgetId": ""
+        }
+      },
+      "onClick": "{{Client_Pkg.SubModule('S');}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButtoneskoc9d3ct": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "ip-address",
+      "id": "groupButtoneskoc9d3ct",
+      "index": 4,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Address",
+      "menuItems": {},
+      "onClick": "{{Client_Pkg.SubModule('A');}}",
+      "placement": "CENTER",
+      "widgetId": "ffulq9dprq"
+    },
+    "groupButtonmjp92id1sg": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "iconName": "mobile-phone",
+      "id": "groupButtonmjp92id1sg",
+      "index": 3,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Contact",
+      "menuItems": {},
+      "onClick": "{{Client_Pkg.SubModule('C');}}",
+      "placement": "CENTER",
+      "widgetId": "cjg5c25op8"
+    }
+  },
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bb8db4853027d74a78963c3375841e4b.svg",
+  "isCanvas": false,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": "{{ClientId.text > 0 ? true : false }}",
+  "key": "wls6kx344q",
+  "leftColumn": 1,
+  "minWidth": 450,
+  "mobileBottomRow": 26,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 22,
+  "orientation": "horizontal",
+  "originalBottomRow": 20,
+  "originalTopRow": 16,
+  "parentColumnSpace": 16.7841796875,
+  "parentId": "8mbq2fzl2i",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 36,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "topRow": 16,
+  "topRowBeforeCollapse": 16,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "kvhrkibw4m",
+  "widgetName": "ButtonGroup15"
+}

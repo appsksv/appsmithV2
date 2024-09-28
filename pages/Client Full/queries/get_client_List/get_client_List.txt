@@ -1,0 +1,14 @@
+query MyQuery {
+  party_client_t(where: {contact_no: {_ilike: "%{{MobileNo.text|| ''}}%"}, legal_name: {_ilike: "%{{LegalName.text|| ''}}%"}, trade_name: {_ilike: "%{{TradeName.text|| ''}}%"}}) {
+    client_id
+		org_type_id
+    contact_no
+    date_of_birth
+    legal_name
+    trade_name
+		group_id    
+		lov_t {
+      value
+    }
+  }
+}

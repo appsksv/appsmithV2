@@ -1,0 +1,52 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "bottomRow": 45,
+  "boxShadow": "none",
+  "defaultSwitchState": true,
+  "displayName": "Switch",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.afbd826fee9d09b12c5cde30a8c6fe62.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "mqu065oyt2",
+  "label": "Bank Authorization",
+  "labelPosition": "Left",
+  "labelStyle": "BOLD",
+  "leftColumn": 43,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 45,
+  "mobileLeftColumn": 30,
+  "mobileRightColumn": 42,
+  "mobileTopRow": 41,
+  "originalBottomRow": 46,
+  "originalTopRow": 41,
+  "parentColumnSpace": 13.6875,
+  "parentId": "9786byzeuf",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 55,
+  "searchTags": [
+    "boolean"
+  ],
+  "tags": [
+    "Toggles"
+  ],
+  "topRow": 41,
+  "type": "SWITCH_WIDGET",
+  "version": 1,
+  "widgetId": "ma61t4ryhs",
+  "widgetName": "partner_bank_auth_ins"
+}

@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "66ddcee1c708760dabe974b0_ee9754a6-bab6-4e63-a1b3-6b936e74f02f",
+  "id": "Client Full_jwt_valid",
+  "unpublishedCollection": {
+    "name": "jwt_valid",
+    "pageId": "Client Full",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

@@ -1,0 +1,7 @@
+query lov @cached {
+  common_lov_t(where: {field_name: {_in: ["Role", "Blood Group","Marital Status", "Employee Type", ]}}) {
+    field_name
+    lov_id
+    value
+  }
+}

@@ -1,0 +1,5 @@
+query MyQuery {
+  ksv_user_t(where: {active_flag: {_eq: true}, user_id: {_eq: 1}}) {
+    user_name
+  }
+}

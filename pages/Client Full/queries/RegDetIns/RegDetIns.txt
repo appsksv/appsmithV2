@@ -1,0 +1,17 @@
+mutation MyMutation
+{
+  insert_party_reg_typ_t
+  (objects: 
+		{	active_flag			: {{reg_activeFlag_ins.isSwitchedOn}}	, 
+			client_id				:	{{ClientId.text}}										, 
+			reg_date				: {{reg_date_ins.formattedDate}}			, 
+			reg_no					: {{reg_number_ins.text}}							, 
+			reg_type_lov_id	: {{reg_type_ins.selectedOptionValue}}, 
+			start_date			: {{reg_start_date_ins.formattedDate}}, 
+			end_date				: {{reg_end_date_ins.formattedDate}}	}) 
+		{
+				returning {
+									  reg_typ_id
+									}
+		}
+}

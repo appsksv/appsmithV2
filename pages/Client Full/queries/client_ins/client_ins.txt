@@ -1,0 +1,14 @@
+mutation MyMutation {
+  insert_party_client_t(objects: {
+    trade_name: {{TradeName.text}}, 
+    legal_name: {{LegalName.text}}, 
+    group_id: {{Group.selectedOptionValue}}, 
+    contact_no: {{MobileNo.text}},  
+    date_of_birth: {{DateofBirth.formattedDate}}, 
+    org_type_id: {{OrganisationType.selectedOptionValue}}
+  }) {
+    returning {
+      client_id
+    }
+  }
+}

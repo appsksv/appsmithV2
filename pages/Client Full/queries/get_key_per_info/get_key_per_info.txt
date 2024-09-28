@@ -1,0 +1,27 @@
+query MyQuery {
+  party_key_person_t(where: {client_id: {_eq: {{ClientId.text}}}}) {
+    aadhar
+    bank_authorization
+    capital_contribution
+    desiganation
+    dob
+    father_name
+    key_per_id
+    name
+    pan
+    sharing_ratio
+    fk_key_per_add {
+      address_id
+      pincode
+      state
+      district
+      taluk_city
+      post
+      area_locality
+      street
+      door_no
+      address_line_1
+      address_line_2
+    }
+  }
+}

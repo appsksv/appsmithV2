@@ -1,0 +1,6 @@
+Hi,
+
+Your Password is {{UN_and_Password.Password.data}}
+
+Thanks and Regards
+KSV and Company

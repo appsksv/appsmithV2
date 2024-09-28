@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "66ddcee1c708760dabe974b0_f553d381-d045-4903-a1a6-8e0efed3f6a9",
+  "id": "Client Full_Client_JS",
+  "unpublishedCollection": {
+    "name": "Client_JS",
+    "pageId": "Client Full",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}

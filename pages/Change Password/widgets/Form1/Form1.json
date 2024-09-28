@@ -1,0 +1,81 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#f0fdf4{{pass_ch.run(()=> \t\t\t\t\t\t\t\t {const jwt = pass_ch.data.data.action.returning[0].response.SESSIONID; if (jwt===\"Username or Password is Incorrect\")\t\t\t{ showAlert(jwt,'error'); }  \telse if (jwt === \"Your Account is Locked\") \t\t\t{showAlert (jwt,'error');} \telse {{navigateTo('HomePage',{x:1,y:2}, 'SAME_WINDOW')}; \t\t\t storeValue('jwt',jwt)} })}}",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 97,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "children": [
+    {
+      "bottomRow": 780,
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [],
+      "flexLayers": [],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "8b3p82pnnt",
+      "leftColumn": 0,
+      "minHeight": 400,
+      "minWidth": 450,
+      "parentColumnSpace": 1,
+      "parentId": "wfe10ojumy",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "responsiveBehavior": "fill",
+      "rightColumn": 481.5,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "5rqu7awwq6",
+      "widgetName": "Canvas4"
+    }
+  ],
+  "displayName": "Form",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "backgroundColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "cqf7c3w15r",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 10,
+  "minWidth": 450,
+  "originalBottomRow": 97,
+  "originalTopRow": 19,
+  "parentColumnSpace": 20.0625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "positioning": "fixed",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchTags": [
+    "group"
+  ],
+  "shouldScrollContents": true,
+  "topRow": 19,
+  "type": "FORM_WIDGET",
+  "widgetId": "wfe10ojumy",
+  "widgetName": "Form1"
+}

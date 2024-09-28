@@ -1,0 +1,14 @@
+query MyQuery($_eq: Int) {
+  party_key_person_t(where: {client_id: {_eq: {{ClientId.text}}}}) {
+    aadhar
+    bank_authorization
+    capital_contribution
+    desiganation
+    dob
+    father_name
+    key_per_id
+    name
+    pan
+    sharing_ratio
+  }
+}

@@ -1,0 +1,11 @@
+mutation post_action($object: sysadmin_hasura_obj_exe_t_insert_input!){
+    action: insert_sysadmin_hasura_obj_exe_t(objects: [$object]){
+        returning{
+            response
+        }
+    }
+	
+	
+	
+	
+} 

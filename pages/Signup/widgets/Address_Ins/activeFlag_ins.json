@@ -1,0 +1,46 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "bottomRow": 47,
+  "boxShadow": "none",
+  "defaultSwitchState": true,
+  "displayName": "Switch",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.c77450c6a660d2ddf1b49f085348de1c.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "n5udu4t0oc",
+  "label": "Active Flag",
+  "labelPosition": "Left",
+  "leftColumn": 28,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 48,
+  "mobileLeftColumn": 28,
+  "mobileRightColumn": 40,
+  "mobileTopRow": 44,
+  "parentColumnSpace": 13.3796875,
+  "parentId": "4rsx1zcz13",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 40,
+  "searchTags": [
+    "boolean"
+  ],
+  "topRow": 43,
+  "type": "SWITCH_WIDGET",
+  "version": 1,
+  "widgetId": "0roov6aw9q",
+  "widgetName": "activeFlag_ins"
+}

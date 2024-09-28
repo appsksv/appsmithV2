@@ -1,0 +1,61 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 22,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonStyle": "PRIMARY_BUTTON",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.7beb9123fb53027d9d6b778cdfe4caed.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "8fwoqo2suv",
+  "leftColumn": 48,
+  "minWidth": 120,
+  "mobileBottomRow": 22,
+  "mobileLeftColumn": 47,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 18,
+  "onClick": "{{address.address_details_ins();\ncloseModal('add_Confirm_Message');\ncloseModal('Address_Ins').then(() => {\n\tresetWidget(\"add_type_ins\", true);\n\t\t\tresetWidget(\"pincode_ins\", true);\n\t\t\tresetWidget(\"state_ins\", true);\n\t\t\tresetWidget(\"district_ins\", true);\n\t\t\tresetWidget(\"taluk_ins\", true);\n\t\t\tresetWidget(\"post_ins\", true);\n\t\t\tresetWidget(\"locality_ins\", true);\n\t\t\tresetWidget(\"street_ins\", true);\n\t\t\tresetWidget(\"doorNumber_ins\", true);\n\t\t\tresetWidget(\"addressLine1_ins\", true);\n\t\t\tresetWidget(\"addressLine2_ins\", true);\n\t\t\tresetWidget(\"gpsCoordinates_ins\", true);\n\t\t\tresetWidget(\"activeFlag_ins\", true);\n});}}",
+  "parentId": "7nhyv79c7x",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "text": "Yes",
+  "topRow": 18,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "3rn697mhdp",
+  "widgetName": "Button22"
+}

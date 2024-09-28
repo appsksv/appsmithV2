@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "66ddcee1c708760dabe974b0_30eff4ae-1b83-4060-b4a0-b05c2d08eb38",
+  "id": "PDF Viewer_jwt_valid",
+  "unpublishedCollection": {
+    "name": "jwt_valid",
+    "pageId": "PDF Viewer",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

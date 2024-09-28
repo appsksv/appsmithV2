@@ -1,0 +1,17 @@
+mutation MyMutation {
+  insert_hr_emp_appl_t(objects: 
+		{ first_name: {{FirstName.text}}, 
+			middle_name: {{MiddleName.text}}, 
+			last_name: {{LastName.text}}, 
+			date_of_birth: {{DateofBirth.formattedDate}}, 
+			marital_status: {{MaritalStatus.selectedOptionValue}}, 
+			sex: {{Gender.selectedOptionValue}}, 
+			blood_type: {{BloodType.selectedOptionValue}}, 
+			pan: {{Pan.text}}, 
+			ct_number: {{ct_no.text}}, 
+			ct_email: {{eMail.text}}}) {
+    returning {
+      int_id
+    }
+  }
+}

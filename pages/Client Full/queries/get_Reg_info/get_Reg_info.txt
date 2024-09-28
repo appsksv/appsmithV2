@@ -1,0 +1,14 @@
+query MyQuery {
+  party_reg_typ_t(where: {client_id: {_eq: {{ClientId.text}}}}) {
+    lov_t {
+      value
+    }
+    active_flag
+    end_date
+    reg_date
+    reg_no
+    start_date
+		reg_type_lov_id
+		reg_typ_id
+  }
+}

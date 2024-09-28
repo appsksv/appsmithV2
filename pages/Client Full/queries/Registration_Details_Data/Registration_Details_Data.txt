@@ -1,0 +1,11 @@
+query MyQuery($ref_table: String, $ref_id: Int) {
+  party_reg_typ_t(where: {ref_table: {_eq: $ref_table}, ref_id: {_eq: $ref_id}}) {
+    reg_typ_id
+    reg_type_lov_id
+    reg_no
+    reg_date
+    start_date
+    end_date
+    active_flag
+  }
+}

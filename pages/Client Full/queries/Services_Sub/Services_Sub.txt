@@ -1,0 +1,12 @@
+query Services {
+  party_sub_services_t {
+    service_id
+    service_lov_id
+    lov_t {
+      			value
+    			}
+    start_date
+    end_date
+    active_flag
+  }
+}

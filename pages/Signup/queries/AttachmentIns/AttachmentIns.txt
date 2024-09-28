@@ -1,0 +1,7 @@
+mutation ins_attachment($object: common_attachment_t_insert_input!){
+    action: insert_common_attachment_t(objects: [$object]){
+        returning{
+            attachment_id
+        }
+    }
+}

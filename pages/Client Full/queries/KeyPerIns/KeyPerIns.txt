@@ -1,0 +1,18 @@
+mutation MyMutation	{
+	  insert_party_key_person_t
+		(objects:  {aadhar								: {{partner_aadhar_number_ins.text}}, 
+								bank_authorization		: {{partner_bank_auth_ins.isSwitchedOn}}	, 
+								capital_contribution	: {{partner_capitalContribution_in.text}}	, 
+								client_id							: {{ClientId.text}}			, 
+								desiganation					: {{partner_designation_ins.selectedOptionLabel}}			, 
+								dob										: {{partner_dateOfBirth_ins.formattedDate}}					, 
+								father_name						: {{partner_fathers_name_ins.text}}			, 
+								name									: {{partner_name_ins.text}}					, 
+								pan										: {{partner_pan_ins.text}}					, 
+								sharing_ratio					: {{partner_sharing_ratio_ins.text}}		}) 
+		{
+		returning  {
+					key_per_id
+					}
+		}
+}

@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "66ddcee1c708760dabe974b0_f85c3ed4-5b80-4337-bd1d-c6013a0e57a7",
+  "id": "UserApproval_file_upload",
+  "unpublishedCollection": {
+    "name": "file_upload",
+    "pageId": "UserApproval",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

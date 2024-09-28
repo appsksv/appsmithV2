@@ -1,0 +1,24 @@
+query MyQuery($intid: Int) {
+  hr_emp_appl_t(where: {int_id: {_eq: $intid}}) {
+    first_name
+    middle_name
+    last_name
+    date_of_birth
+    marital_status
+    sex
+    blood_type
+    pan
+    ct_number
+    ct_email
+    fk_emp_int_docs_v {
+      attachment_id
+			attach_bkt
+      attach_path
+      attach_url
+      attachment_type_id
+      fk_12_emp_int_doc_typ_v {
+        value
+      }
+    }
+  }
+}

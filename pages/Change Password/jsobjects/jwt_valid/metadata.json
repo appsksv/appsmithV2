@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "66ddcee1c708760dabe974b0_0b456166-281f-44a8-ac6d-0c3086405b4f",
+  "id": "Change Password_jwt_valid",
+  "unpublishedCollection": {
+    "name": "jwt_valid",
+    "pageId": "Change Password",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

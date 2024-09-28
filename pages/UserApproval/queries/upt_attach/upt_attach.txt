@@ -1,0 +1,7 @@
+mutation upt_attachment($int_id: Int, $emp_id: Int) {
+  update_common_attachment_t(where: {ref_table: {_eq: "emp_int_t"}, ref_id: {_eq: $int_id}}, _set: {ref_id: $emp_id, ref_table: "employee_t"}) {
+    returning {
+      attachment_id
+    }
+  }
+}

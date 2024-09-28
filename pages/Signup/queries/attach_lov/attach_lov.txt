@@ -1,0 +1,6 @@
+query MyQuery($value: String = "") {
+  common_lov_t(where: {field_name: {_eq: "Attachment Type"}, value: {_eq: $value}}) {
+    lov_id
+    value
+  }
+}

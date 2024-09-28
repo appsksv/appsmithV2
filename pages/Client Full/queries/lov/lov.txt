@@ -1,0 +1,7 @@
+query MyQuery {
+  common_lov_t(where: {field_name: {_in: ["Client Address Type", "Client Contact Type","Key Person Designation","Group", "Org Type","Registration Type","Services"]}}) {
+    field_name
+    lov_id
+    value
+  }
+}

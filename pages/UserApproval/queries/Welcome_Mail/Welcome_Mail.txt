@@ -1,0 +1,10 @@
+Hi {{FirstName.text}},
+
+Welcome to KSV Family, and your Crediatials
+
+UN: {{OfficeMail.text}}
+PWD: {{appsmith.store.password}}
+
+once you log in you must fill the Contact, Address and Qualification Details
+
+Thank you

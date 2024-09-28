@@ -1,0 +1,7 @@
+mutation emp_role($objects: [hr_emp_role_map_t_insert_input!]!) {
+  insert_hr_emp_role_map_t(objects: $objects) {
+    returning {
+      role_map_id
+    }
+  }
+}
